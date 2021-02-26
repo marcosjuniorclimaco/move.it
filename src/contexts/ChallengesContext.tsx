@@ -59,6 +59,7 @@ export function ChallengesProvider({
 
   function levelUp() {
     setLevel(level + 1);
+    new Audio("/succeed.mp3").play();
     setIsLevelUpModalOpen(true);
   }
 
