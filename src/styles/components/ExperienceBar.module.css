@@ -19,14 +19,7 @@
 
 .experienceBar > div div {
   background: rgb(255, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 0, 0, 1) 0%,
-    rgba(211, 132, 10, 1) 31%,
-    rgba(254, 255, 13, 1) 51%,
-    rgba(162, 254, 8, 1) 74%,
-    rgba(47, 251, 0, 1) 100%
-  );
+  background: var(--green);
   border-radius: 4px;
   height: 4px;
 }
